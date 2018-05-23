@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/dubbo-xuang-consumer/dubbo-xuang-consumer.iml" filepath="$PROJECT_DIR$/dubbo-xuang-consumer/dubbo-xuang-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-xuang-service/dubbo-xuang-service.iml" filepath="$PROJECT_DIR$/dubbo-xuang-service/dubbo-xuang-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-xuang-serviceApi/dubbo-xuang-serviceApi.iml" filepath="$PROJECT_DIR$/dubbo-xuang-serviceApi/dubbo-xuang-serviceApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-kafka/spring-kafka.iml" filepath="$PROJECT_DIR$/spring-kafka/spring-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mybatis/spring-mybatis.iml" filepath="$PROJECT_DIR$/spring-mybatis/spring-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-redis/spring-redis.iml" filepath="$PROJECT_DIR$/spring-redis/spring-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/xuang-spring-boot.iml" filepath="$PROJECT_DIR$/xuang-spring-boot.iml" />
     </modules>
