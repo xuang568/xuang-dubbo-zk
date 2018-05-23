@@ -10,6 +10,7 @@
         <module>dubbo-xuang-serviceApi</module>
         <module>dubbo-xuang-service</module>
         <module>dubbo-xuang-consumer</module>
+        <module>springmy-batis</module>
     </modules>
     <packaging>pom</packaging>
 
