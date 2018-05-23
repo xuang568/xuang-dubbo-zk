@@ -9,6 +9,7 @@
         <module name="dubbo-xuang-consumer" />
         <module name="dubbo-xuang-service" />
         <module name="dubbo-xuang-serviceApi" />
+        <module name="spring-mybatis" />
         <module name="spring-redis" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
       <module name="dubbo-xuang-consumer" target="1.8" />
       <module name="dubbo-xuang-service" target="1.8" />
       <module name="dubbo-xuang-serviceApi" target="1.8" />
+      <module name="spring-mybatis" target="1.8" />
       <module name="spring-redis" target="1.8" />
       <module name="xuang-spring-boot" target="1.8" />
     </bytecodeTargetLevel>
