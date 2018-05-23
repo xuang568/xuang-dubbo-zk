@@ -11,6 +11,7 @@
         <module>dubbo-xuang-service</module>
         <module>dubbo-xuang-consumer</module>
         <module>spring-redis</module>
+        <module>springmy-batis</module>
     </modules>
     <packaging>pom</packaging>
 
