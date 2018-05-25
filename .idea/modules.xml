@@ -5,17 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/dubbo-xuang-consumer/dubbo-xuang-consumer.iml" filepath="$PROJECT_DIR$/dubbo-xuang-consumer/dubbo-xuang-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-xuang-service/dubbo-xuang-service.iml" filepath="$PROJECT_DIR$/dubbo-xuang-service/dubbo-xuang-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-xuang-serviceApi/dubbo-xuang-serviceApi.iml" filepath="$PROJECT_DIR$/dubbo-xuang-serviceApi/dubbo-xuang-serviceApi.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-mybatis/src/main/java/main.iml" filepath="$PROJECT_DIR$/spring-mybatis/src/main/java/main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dubbo-xuang-service/src/main/main1.iml" filepath="$PROJECT_DIR$/dubbo-xuang-service/src/main/main1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dubbo-xuang-serviceApi/src/main/main2.iml" filepath="$PROJECT_DIR$/dubbo-xuang-serviceApi/src/main/main2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-kafka/src/main/main3.iml" filepath="$PROJECT_DIR$/spring-kafka/src/main/main3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-redis/src/main/main4.iml" filepath="$PROJECT_DIR$/spring-redis/src/main/main4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/main/main5.iml" filepath="$PROJECT_DIR$/src/main/main5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dubbo-xuang-consumer/src/main/main6.iml" filepath="$PROJECT_DIR$/dubbo-xuang-consumer/src/main/main6.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-kafka/spring-kafka.iml" filepath="$PROJECT_DIR$/spring-kafka/spring-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-mybatis/spring-mybatis.iml" filepath="$PROJECT_DIR$/spring-mybatis/spring-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-redis/spring-redis.iml" filepath="$PROJECT_DIR$/spring-redis/spring-redis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/test/test.iml" filepath="$PROJECT_DIR$/src/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/xuang-spring-boot.iml" filepath="$PROJECT_DIR$/xuang-spring-boot.iml" />
     </modules>
   </component>
