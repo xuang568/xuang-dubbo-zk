@@ -17,10 +17,29 @@
     <!-- redis服务器中心 -->
     <bean id="connectionFactory"
           class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">
+        <constructor-arg ref="redisSentinelConfiguration"/>
         <property name="poolConfig" ref="poolConfig" />
         <property name="port" value="6479"/>
         <property name="hostName" value="localhost" />
     </bean>
+
+    <!-- spring data redis JedisConnectionFactory-->
+    <bean id="redisSentinelConfiguration" class="org.springframework.data.redis.connection.RedisSentinelConfiguration">
+        <property name="master">
+            <bean class="org.springframework.data.redis.connection.RedisNode">
+                <property name="name" value="${redis.clusterName}"></property>
+            </bean>
+        </property>
+        <property name="sentinels">
+            <set>
+                <bean class="org.springframework.data.redis.connection.RedisNode">
+                    <constructor-arg index="0" value="${redis.host}"/>
+                    <constructor-arg index="1" value="${redis.port}"/>
+                </bean>
+            </set>
+        </property>
+    </bean>
+
     <bean id="redisTemplate" class="org.springframework.data.redis.core.RedisTemplate">
         <property name="connectionFactory" ref="connectionFactory" />
         <property name="keySerializer">
